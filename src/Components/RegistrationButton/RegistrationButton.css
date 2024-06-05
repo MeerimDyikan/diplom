@@ -1,0 +1,98 @@
+
+.buttonreg {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .buttonreg:hover {
+    background-color: #0056b3;
+  }
+ 
+  #overlay {
+      position: fixed;
+      top: 0;
+      z-index: 100;
+      width: 100%;
+      height: 100%;
+      display: none;
+      background: rgba(0, 0, 0, 0.6);
+  }
+
+  .cv-spinner {
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .spinner {
+      width: 40px;
+      height: 40px;
+      border: 4px #ddd solid;
+      border-top: 4px #2e93e6 solid;
+      border-radius: 50%;
+      animation: sp-anime 0.8s infinite linear;
+  }
+
+  @keyframes sp-anime {
+      100% {
+          transform: rotate(360deg);
+      }
+  }
+
+  .form-group {
+      margin-bottom: 15px;
+  }
+
+  .has-error .help-block {
+      color: red;
+  }
+
+  .col-8 {
+      width: 66.6%;
+      float: left;
+      padding: 0 10px;
+  }
+
+  .col-4 {
+      width: 33.4%;
+      float: left;
+      padding: 0 10px;
+  }
+
+  .timer-wrap {
+      text-align: center;
+      font-size: 18px;
+      color: green;
+  }
+
+  .bot-btn {
+      line-height: 46px;
+      margin-bottom: 3px;
+  }
+
+  .bot-icon {
+      width: 32px;
+      height: 32px;
+  }
+
+  .nobot-btn {
+      color: #f57f17;
+      font-size: 1em;
+      border: 1px solid #f57f17;
+      padding: 5px 20px;
+      display: block;
+      margin-top: 16px;
+  }
+
+  .sms-input {
+      border: 1px solid gray;
+      border-radius: 5px;
+      height: 46px;
+      font-size: 18px;
+  }
+
