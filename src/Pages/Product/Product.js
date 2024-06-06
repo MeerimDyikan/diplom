@@ -22,7 +22,7 @@ export default function Product() {
       <div>
         <h1>{product.name}</h1>
         <p><strong>Цена по акции:</strong> {product.price}сом</p>
-        <p><strong>Цена:</strong> {product.oldprice}сом</p>
+       
         <p><strong>Описание: </strong>{product.desc}</p>
         <AddToCart product={product} />
       </div>

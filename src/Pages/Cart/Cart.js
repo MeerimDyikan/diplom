@@ -18,7 +18,7 @@ export function Cart() {
   }
   if (!user) {
     <div className="Cart" >
-      <h1>Cart</h1>
+      <h1>Корзина</h1>
       <CartList />
       <OrderForm active={modalActive} setActive={setModalActive} />
     </div>
@@ -26,9 +26,9 @@ export function Cart() {
 
   return (
     <div className="Cart" >
-      <h1>Cart</h1>
+      <h1>Корзина</h1>
       <CartList />
-      <button className="order" onClick={() => setModalActive(true)}>Order</button>
+      <button className="order" onClick={() => setModalActive(true)}>Заказать</button>
       <OrderForm active={modalActive} setActive={setModalActive} />
     </div>
   )

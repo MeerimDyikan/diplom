@@ -22,8 +22,8 @@ export default function OrderList() {
           <li>
             <div className="product-name">{product.name}</div>
             <div>Amount: <span>{order.cart[productId]}</span></div>
-            <div>Price: <span>{product.price}$</span></div>
-            <div>Total price: <span>{order.cart[productId] * product.price}$</span></div>
+            <div>Price: <span>{product.price}сом</span></div>
+            <div>Total price: <span>{order.cart[productId] * product.price}сом</span></div>
           </li>
         </div>
       );
@@ -31,9 +31,9 @@ export default function OrderList() {
 
     return (
       <ul className="Order" key={order.id}>
-        <li>Name: <span>{order.name}</span></li>
-        <li>Phone: <span>{order.phone}</span></li>
-        <li>Address: <span>{order.address}</span></li>
+        <li>Имя: <span>{order.name}</span></li>
+        <li>Телефон: <span>{order.phone}</span></li>
+        <li>Адресс: <span>{order.address}</span></li>
         <li>Orders:
           <ul>
             {cartOutput}

@@ -21,6 +21,9 @@
   background-color: white;
   transition: all 100ms linear;
 }
+
+
+
 .ProductList .product:hover img {
   filter: opacity(80%);
 }
