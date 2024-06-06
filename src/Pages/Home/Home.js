@@ -7,7 +7,7 @@ import aboutImg5 from "../../images/Carousel-5-7-2024-ru-en.jpg"
 import aboutImg6 from "../../images/Carousel-6-7-2024-ru-en.jpg"
 import middleImg from "../../images/Middle-1-8-2024.jpg"
 import middleImg1 from "../../images/Middle-2-8-2024.jpg"
-
+import vomoImg from "../../images/vomo.jpg"
 import bonusImg1 from "../../images/ideo1.jpg"
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
@@ -60,7 +60,20 @@ function Home()
 <div className="image_container"><img src={bonusImg1} alt="Image" /></div>
 <div className="centered_text">Любой дезодорант-спрей iDeo со скидкой 50% всего за 205 KGS при покупке по каталогу за каждые 525 KGS в заказе!</div>
         
-   
+
+		{/* <div className="container">
+			<div className="points flex">
+				<div className="point_left">
+					<div className="point-head"><h2 className="point_tit">Donna & Uomo Felice</h2>
+						<p className="point_p">У счастья есть свой аромат – искристый, задорный, наполненный энергией сицилийских фруктов..</p></div>
+					
+					
+				</div>
+				<div className="point_right">
+					<div className="img"><img src={vomoImg} alt=""/></div>
+				</div>
+        </div> */}
+	
      
      </>
     );
